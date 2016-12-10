@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>Test</title>
+<style type="text/css">
+#container {
+  height: 320px;
+  width: 480px;
+  margin: 20px auto;
+  position: relative;
+}
+#img{
+  height: 320px;
+  width: 480px;
+  position: absolute;
+}
+#left_holder{
+  height: 320px;
+  width: 100px;
+  position:absolute;
+  left:0px;
+  top: 0px;
+
+}
+
+#left_holder{
+  height: 320px;
+  width: 100px;
+  position:absolute;
+  left:0px;
+  top: 0px;
+}
+
+.left{
+  height:50px;
+  width:50px;
+  position:absolute;
+  top:40%;
+  left:0px;
+}
+
+.right{
+  height:50px;
+  width:50px;
+  position:absolute;
+  top:40%;
+  right:0px;
+}
+</style>
+
+<script type="text/javascript">
+var imagecount = 1;
+var total = 5;
+
+function slide(x) {
+  var image = document.getElementsById('img');
+  imagecount = imagecount + x;
+  image.src ="pics/" + imagecount +".jpg";
+}
+
+</script>
+</head>
+
+<body>
+  <header>
+    <a href="#" id="logo"></a>
+    <nav>
+      <a href="#" id="Menu-Icon"></a>
+      <ul>
+        <li><a href="index.html" class="current">Home</a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <P> I tried using a javascript element on this page to create a slide show, but I can't get it to work. </p>
+<div id="container">
+<img src='pics/tokyo.jpg' id= "img"/>
+<img src='pics/London-scene.jpg' id= "img"/>
+<img src='pics/Munich-scene.jpg' id= "img"/>
+<img src='pics/Prague-scene.jpg' id= "img"/>
+<div id="left_holder"><img onClick="slide(-1)" class = "left" src = "pics/arrow-left.png"/></div>
+<div id = "right_holder"><img onClick="slide(1)" class="right"src = "pics/arrow-right.png"/></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+body section {
+  width: 30%;
+}
+
+footer section {
+  width:30%;
+}
+
+header ul {
+  display: block;
+}

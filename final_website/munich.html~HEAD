@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title> Explore The World </title>
+<meta name = "Viewport" content="width=divice-width, initial-scale=1.0">
+<link rel="stylesheet" href="blueberry.css" />
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="london.css">
+<style type="text/css">
+
+/*----------------------Site Interaction--------------*/
+
+@media screen and (max-width: 478px) {
+  body {
+    position: absolute;
+  }
+}
+@media screen and (max-width: 740px) {
+  header {
+    position:absolute;
+  }
+}
+/*------------------------------------------------------------------------*/
+#logo {
+  margin: 20px;
+  float: left;
+  width:250px;
+  height:45px;
+  background: url("pics/munichlogo.png") no-repeat center;
+}
+</style>
+<link rel="stylesheet" href="responsive.css" media="screen and (max-width: 768px)">
+
+</head>
+<body>
+  <header>
+    <a href="#" id="logo"></a>
+    <nav>
+      <a href="#" id="Menu-Icon"></a>
+      <ul>
+        <li><a href="index.html" class="current">Home</a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <div id="doc">
+    <div id="content">
+
+    </div>
+  </div>
+
+  <aside>
+    <br></br>
+    <img src="pics/munich-scene.jpg" />
+    <section class="tokyo">
+      <h2> Explore Munich </h2>
+      <ul>
+        <li><h3>Popular Sites</h3></li>
+          <li><h4> Marienplatz</h4></li>
+          <p> Marienplatz is the city center of Munich. Here you can access
+          Munich's metro system, find many great beer halls and restaurants, and
+        view Munich's historic architecture </p>
+          <li><h4> Frauenkirche  </h4><li>
+          <p> This very massive church located by Marienplatz was bombed during
+          World War 2, but restored after the war. The two towers give a great view
+        of the entire city, and Munich's historic buildings. </p>
+            <p></p>
+        <li><h3>Entertainment</h3></li>
+          <li><h4> BMW Musuem</h4></li>
+          <p> The BMW Musuem is located just outside Munich's city limits, right
+          next to the 1972 Olympic park. Here, you can learn about the history
+        of Germany's most well known vehicle from the first engine, to World War II, to
+        its high performance cars that are known today.</p>
+
+          <li><h4> 089 </h4></li>
+          <p> 089 is a well known bar/club that is popular with the younger crowd.
+          clubs in Munich are 18 and up, so it's very popular amongst college aged
+        individuals. </p>
+            <p></p>
+        <li><h3>Restaraunts</h3></li>
+        <li><h4> Holfbrauhaus</h4></li>
+        <p> This famous beer hall is known to have great beer and great food. Enjoy
+        a full Liter of beer with complimentary pretzels on the side </p>
+        <li><h4> Augustiner-Brau Munchen </h4></li>
+        <p> Yes, another beer hall but that is what Munich is known for. This beer hall
+        offers a variety of different brews with great food. </p>
+          <p></p>
+        <li><h3>Transportation</h3></li>
+        <li><h4> Metro Train</h4></li>
+        <p> The fastest and easiest way around Munich is by Metro train. The metro
+        runs underneith the city and serves many stations in Munich as well as the
+      surrounding area.</p>
+
+      </ul>
+    </section>
+  </aside>
+  <div class="clear"></div>
+    <section>
+      <br></br>
+      <br></br>
+      <img src="pics/BMWmuseum.jpg"/>
+      <h1> BMW Museum</h1>
+      <p> Germany is known for its high end cars, The BMW Museum displays the
+      exotic and historic vehicles made by BMW </p>
+    </section>
+    <section>
+      <img src="pics/beerhall.jpg"/>
+      <h1> Holfbrauhaus </h1>
+      <p> Munich is known for its great beer, and beer halls. THe historic Holfbrauhaus offers
+      great beer and great food for loca residents and visitors from around the world.</p>
+    </section>
+    <section>
+      <img src="pics/munichstreet.jpg"/>
+      <h1> Streets of Munich </h1>
+      <p> Munich offers some very old architecture such as churches an castles that
+      date back to the 1400s. </p>
+    </section>
+  <footer>
+    <section>
+      <h3><b>Explore The World</b></h3>
+      <p><b>This site is made by Drew Claver<br>
+            Course: MI349 Web Design and Development<br>
+            Final Website Project</p>
+    </section>
+    <section>
+      <h3>Links to other helpful sites</h3>
+      <ul class"othersite">
+        <a href=https://www.tripadvisor.com/><img src="pics/tripadvisoricon.png"/></a>
+        <a href=https://www.expedia.com//><img src="pics/expedialogo.jpg"/></a>
+        <a href=https://www.united.com/ual/en/us//><img src="pics/unitedlogo.png"/></a>
+      </ul>
+    </section>
+    <section>
+        <img src="pics/munichlogo.png"/>
+      </ul>
+    </section>
+  </footer>
+  <footer class="second">
+    <p>©Copyright - Drew Claver, 2016.</p>
+  </footer>
+
+
+
+
+    </nav>
+  </header>
+
+
+</body>
+</html>

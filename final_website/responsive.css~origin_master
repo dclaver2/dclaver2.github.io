@@ -1,0 +1,12 @@
+body section {
+  width: 47.5%;
+  margin: 0;
+}
+footer section {
+  width:47.5%;
+  font-size: 85%;
+}
+
+header ul li {
+  font-size: 85%;
+}

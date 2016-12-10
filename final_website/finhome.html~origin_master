@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title> Explore The World</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="finalwebsite.css">
+
+  </head>
+  <body>
+    <div class="pagebody">
+      <div class="header">
+        <h2> Explore The World </h2>
+        <div class="container">
+        <div class="titleArea"></div>
+        <div class="navArea"></div>
+          <ul class="navigation">
+
+
+            <a href = "#"><li>Cities</li></a>
+            <a href = "#"><li>Info</li></a>
+            <a href = "#"><li>Help</li></a>
+            <a href = "#"><li>Pictures</li></a>
+            <a href = "#"><li>About</li></a>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

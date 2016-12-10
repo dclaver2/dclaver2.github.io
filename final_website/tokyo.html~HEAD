@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title> Explore The World </title>
+<meta name = "Viewport" content="width=divice-width, initial-scale=1.0">
+<link rel="stylesheet" href="blueberry.css" />
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="tokyo.css">
+<style type="text/css">
+
+/*----------------------Site Interaction--------------*/
+
+@media screen and (max-width: 478px) {
+  body {
+    position: absolute;
+  }
+}
+@media screen and (max-width: 740px) {
+  header {
+    position:absolute;
+  }
+}
+/*------------------------------------------------------------------------*/
+
+</style>
+<link rel="stylesheet" href="responsive.css" media="screen and (max-width: 768px)">
+
+</head>
+<body>
+  <header>
+    <a href="#" id="logo"></a>
+    <nav>
+      <a href="#" id="Menu-Icon"></a>
+      <ul>
+        <li><a href="index.html" class="current">Home</a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <div id="doc">
+    <div id="content">
+
+    </div>
+  </div>
+
+  <aside>
+    <br></br>
+
+    <img src="pics/tokyo.jpg" />
+    <section class="tokyo">
+      <h2> Explore Tokyo </h2>
+      <ul>
+        <li><h3>Popular Sites</h3></li>
+          <li><h4>Tokyo Sky Tree</h4></li>
+          <p> The Tokyo Sky Tree is the tallest structure in Japan. Get a great view of <br>
+            mount Fuji as well as the rest of the city from over 1475 ft high!</p>
+          <li><h4>Shibuya Crossing</h4><li>
+          <p> The Shibuya Crossing is a famous crosswalk in the heart of Tokyo.
+            surround yourself with lights and buildings, and explore all the shops
+            and restaurants in Shibuya. </p>
+            <p></p>
+        <li><h3>Entertainment</h3></li>
+          <li><h4>Roppongi</h4></li>
+          <p>Exolore Tokyo's nightlife in Roppongi. Roppongi is known for having
+            many bars and Restaraunts, as well as a lively night life. </p>
+
+          <li><h4>Kabukicho (18+)</h4></li>
+          <p>Exolore Tokyo's red light district in Kabukicho. Located in the district
+            of Shinjuku, this area has great bars and restaurants, but is only suitable for
+            18+ only. </p>
+            <p></p>
+        <li><h3>Restaraunts</h3></li>
+        <li><h4>Ramen Shops</h4></li>
+        <p> Tokyo is known to have great Ramen. Ramen shops are all over the city,
+          almost on every block. </p>
+        <li><h4>Uobei</h4></li>
+        <p> Uobei is a fun sushi restaurants that allows you to order your meal on
+          a touch screen monitor. Your meal is then sent to you on a conveyor belt right
+          to your seat. Uobei has also received positive feedback on travel sites such
+          as trip advisor. </p>
+          <p></p>
+        <li><h3>Transportation</h3></li>
+        <li><h4>Tokyo Metra</h4></li>
+        <p> Tokyo is known for its most efficient and advance transportation.
+          You can purchase a PASMO card which will allow you to use all of the
+          city's Metra trains.
+        <li><h4>Bullet Train</h4></li>
+        <p> Explore outside Tokyo and take a bullet train to another city such as
+          Kyoto or Osaka. Japan has some of the fastest trains in the world that can
+          get you to another city in half the time as driving.
+      </ul>
+    </section>
+  </aside>
+  <div class="clear"></div>
+    <section>
+      <br></br>
+      <br></br>
+      <img src="pics/shibcrossing.jpg"/>
+      <h1> Shibuya Crossing </h1>
+      <p> This famous crosswalk is in the district of Shibuya. Shibuya has great
+        shops, restaurants, and entertainment while constantly being surrounded
+        by tall buildings and people. </p>
+    </section>
+    <section>
+      <img src="pics/tokyopark.jpg"/>
+      <h1> Parks and Gardens </h1>
+      <p> Though it might make you think you are in a different city, Tokyo has many
+      parks and gardens scattered throughout the city.  </p>
+    </section>
+    <section>
+      <img src="pics/iliketrains.jpg"/>
+      <h1> Tokyo Trains </h1>
+      <p> Tokyo has one of the best public transportation systems in the world.
+      if you get the chance to take a bullet train outside the city, it's highly
+      recommended.</p>
+    </section>
+  <footer>
+    <section>
+      <h3><b>Explore The World</b></h3>
+      <p><b>This site is made by Drew Claver<br>
+            Course: MI349 Web Design and Development<br>
+            Final Website Project</p>
+    </section>
+    <section>
+      <h3>Links to other helpful sites</h3>
+      <ul class"othersite">
+        <a href=https://www.tripadvisor.com/><img src="pics/tripadvisoricon.png"/></a>
+        <a href=https://www.expedia.com//><img src="pics/expedialogo.jpg"/></a>
+        <a href=https://www.united.com/ual/en/us//><img src="pics/unitedlogo.png"/></a>
+      </ul>
+    </section>
+    <section>
+        <img src="pics/tokyologo.png"/>
+      </ul>
+    </section>
+  </footer>
+  <footer class="second">
+    <p>©Copyright - Drew Claver, 2016.</p>
+  </footer>
+
+
+
+
+    </nav>
+  </header>
+
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+#logo {
+  margin: 20px;
+  float: left;
+  width:250px;
+  height:45px;
+  background: url("pics/tokyologo.png") no-repeat center;
+}
